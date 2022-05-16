@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Toy()
+comment0.text=\r\n\ Toy\ Constructor\ creates\ a\ new\ instance\ of\ Toy\ with\ no\ name\ and\ count\ of\ 1\r\n\r\n
+comment1.params=nm
+comment1.target=Toy(java.lang.String)
+comment1.text=\r\n\ Toy\ Constructor\ creates\ a\ new\ instance\ of\ Toy\ with\ a\ name\ and\ count\ of\ one\r\n\r\n\ @param\ nm\ is\ a\ string\ which\ sets\ name\r\n
+comment2.params=
+comment2.target=int\ getCount()
+comment2.text=\r\n\ Method\ getCount\ \r\n\r\n\ @return\ the\ value\ of\ count\r\n
+comment3.params=cnt
+comment3.target=void\ setCount(int)
+comment3.text=\r\n\ Method\ setCount\r\n\r\n\ @param\ cnt\ sets\ count\r\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\r\n\ Method\ getName\r\n\r\n\ @return\ the\ value\ of\ name\r\n
+comment5.params=nm
+comment5.target=void\ setName(java.lang.String)
+comment5.text=\r\n\ Method\ setName\r\n\r\n\ @param\ nm\ sets\ name\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Method\ toString\r\n\r\n\ @return\ the\ name\ and\ count\ of\ a\ Toy\r\n
+numComments=7

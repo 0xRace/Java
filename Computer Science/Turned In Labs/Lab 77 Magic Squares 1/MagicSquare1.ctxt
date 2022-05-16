@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=size\ numbers
+comment0.target=MagicSquare1(int,\ java.lang.String)
+comment0.text=\r\n\ MagicSquare1\ Constructor\r\n\r\n\ size\ the\ matrix\ and\ load\ in\ the\ numbers\ into\ the\ matrix\r\n\ @param\ size\ A\ parameter\r\n\ @param\ numbers\ A\ parameter\r\n
+comment1.params=
+comment1.target=boolean\ isMagicSquare()
+comment1.text=\r\n\ Method\ isMagicSquare\r\n\r\n\ @return\ true\ if\ mat\ is\ a\ Magic\ Square\r\n\ \ \ \ \ \ \ \ \ false\ if\ mat\ is\ not\ a\ Magic\ Square\r\n\ \r\n\ \ A\ square\ matrix\ is\ a\ Magic\ Square\ if\ the\ sum\ of\ the\ elements\ in\ each\ row,\ each\ columns,\r\n\ \ and\ each\ of\ the\ two\ diagonals\ are\ the\ same\ number.\r\n
+comment2.params=r
+comment2.target=int\ sumRow(int)
+comment2.text=\r\n\ Method\ sumRow\r\n\r\n\ @param\ r\ row\ index\r\n\ @return\ the\ sum\ of\ all\ elements\ in\ row\ r\ of\ mat\r\n
+comment3.params=c
+comment3.target=int\ sumCol(int)
+comment3.text=\r\n\ Method\ sumCol\r\n\r\n\ @param\ c\ column\ index\r\n\ @return\ the\ sum\ of\ all\ elements\ in\ column\ c\ of\ mat\r\n
+comment4.params=
+comment4.target=int\ sumDownDiag()
+comment4.text=\r\n\ Method\ sumDownDiag\r\n\r\n\ @return\ the\ sum\ of\ the\ elements\ in\ the\ top-left/bottom-right\ diagonal\ of\ mat\r\n
+comment5.params=
+comment5.target=int\ sumUpDiag()
+comment5.text=\r\n\ Method\ sumUpDiag\r\n\r\n\ @return\ the\ sum\ of\ the\ elements\ in\ the\ bottom-left/top-right\ diagonal\ of\ mat\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Method\ toString\r\n\r\n\ @return\ a\ String\ reprsentation\ of\ mat\r\n
+numComments=7

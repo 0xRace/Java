@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MagicSquare2()
+comment1.params=size
+comment1.target=MagicSquare2(int)
+comment2.params=size
+comment2.target=void\ setSize(int)
+comment3.params=
+comment3.target=void\ createMagic()
+comment3.text=\r\n\ Creates\ a\ magic\ square\ in\ the\ array\ magicSquare\r\n\ \r\n\ A\ magic\ square\ is\ a\ square\ in\ which\ each\ row,\ each\ column,\ and\ each\r\n\ of\ the\ two\ diagonals\ sum\ to\ the\ same\ number.\r\n\ \r\n\ Algorithm\:\r\n\ Start\ with\ the\ middle\ entry\ of\ the\ top\ row.\ Place\ a\ 1\ there.\ \r\n\ Now\ move\ consecutively\ through\ the\ other\ squares\ and\ place\ the\ numbers\ 2,\ 3,\ 4,\ etc.\ \r\n\ After\ placing\ a\ number,\ just\ remember\ to\ always\ move\:\r\n\ 1.\ diagonally\ up\ and\ to\ the\ right\ when\ you\ can,\ \r\n\ 2.\ straight\ down\ if\ you\ cannot.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

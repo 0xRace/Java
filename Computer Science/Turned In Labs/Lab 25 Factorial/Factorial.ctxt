@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Factorial()
+comment0.text=\r\n\ Factorial\ Constructor\r\n\ creates\ a\ new\ instance\ of\ Factorial,\ and\ sets\ int\ number\ \=\ to\ 0\r\n\r\n
+comment1.params=num
+comment1.target=Factorial(int)
+comment1.text=\r\n\ Factorial\ Constructor\r\n\ creates\ a\ new\ instance\ of\ Factorial\r\n\ @param\ num\ is\ an\ integer\ which\ sets\ number\r\n
+comment2.params=num
+comment2.target=void\ setNum(int)
+comment2.text=\r\n\ Method\ setNum\ allows\ the\ number\ to\ be\ set\r\n\r\n\ @param\ num\ is\ an\ integer\ which\ sets\ number\r\n
+comment3.params=
+comment3.target=int\ getNum()
+comment3.text=\r\n\ Method\ getNum\r\n\r\n\ @return\ the\ value\ of\ int\ number\r\n
+comment4.params=
+comment4.target=long\ getFactorial()
+comment4.text=\r\n\ Method\ getFactorial\ calculates\ the\ factorial\ of\ a\ given\ number\ and\ returns\ the\ answer\r\n\r\n\ @return\ the\ factorial\ of\ a\ given\ number\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Method\ toString\ tells\ what\ the\ factorial\ of\ a\ given\ number\ is\r\n\r\n\ @return\ a\ string\ stating\ what\ the\ factorial\ of\ a\ given\ number\ is\r\n
+numComments=6

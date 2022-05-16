@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=appStarter
+comment0.target=GUI(ApplicationStarter)
+comment1.params=e
+comment1.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+comment10.params=
+comment10.target=void\ resetGame()
+comment2.params=
+comment2.target=void\ start()
+comment3.params=
+comment3.target=void\ stop()
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=
+comment5.target=javax.swing.JMenuBar\ getCreatedMenuBar()
+comment6.params=fps
+comment6.target=void\ setSpeed(int)
+comment7.params=fps
+comment7.target=int\ fpsToMs(int)
+comment8.params=parent
+comment8.target=void\ doApplicationClosing(javax.swing.JFrame)
+comment9.params=
+comment9.target=void\ startGame()
+numComments=11

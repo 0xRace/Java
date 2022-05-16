@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=n\ i\ t\ p
+comment0.target=Nurse(java.lang.String,\ int,\ java.lang.String,\ int)
+comment1.params=p
+comment1.target=void\ setNumberOfPatients(int)
+comment2.params=
+comment2.target=int\ getNumberOfPatients()
+comment3.params=
+comment3.target=java.lang.String\ work()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

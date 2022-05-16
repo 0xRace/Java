@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=array\ pos
+comment0.target=int\ getPairValue(int[],\ int)
+comment0.text=\ @param\ array\ list\ of\ positive\ integer\ values\r\n\ \ @param\ post\ 1st\ location\ to\ process\r\n\ \ \t\tPrecondition\ \:\ array.length>\=2\ and\ pos>0\ and\ pos<array.length\r\n\ \ @return\ the\ sum\ of\ positions\ pos\ and\ pos+1\r\n
+comment1.params=num
+comment1.target=boolean\ isOdd(int)
+comment1.text=\ @param\ num\ is\ a\ positive\ non-decimal\ value\r\n\ \ @param\ post\ 1st\ location\ to\ process\r\n\ \ \t\tPrecondition\ \:\ num\ >\=\ 0\r\n\ \ @return\ true\ if\ num\ is\ odd\ or\ false\ if\ num\ is\ even\r\n
+comment2.params=array
+comment2.target=int\ getOddPairCount(int[])
+comment2.text=\ @param\ array\ list\ of\ positive\ integer\ values\r\n\ \ \t\tPrecondition\ \:\ array.length>0\r\n\ \ \ @return\ the\ count\ of\ all\ odd\ pair\ sums\r\n
+comment3.params=array
+comment3.target=int[]\ getOddPairArray(int[])
+comment3.text=\ @param\ array\ list\ of\ positive\ integer\ values\r\n\ \ \t\tPrecondition\ \:\ array.length>0\r\n\ \ \ @return\ an\ array\ containing\ all\ of\ the\ odd\ pair\ sums\r\n
+numComments=4

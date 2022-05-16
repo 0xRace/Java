@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Word()
+comment0.text=\r\n\ Word\ Constructor\ creates\ a\ new\ instance\ of\ Word\ with\ String\ word\=""\r\n\r\n
+comment1.params=s
+comment1.target=Word(java.lang.String)
+comment1.text=\r\n\ Word\ Constructor\ creates\ a\ new\ instance\ of\ Word\ and\ sets\ String\ word\=\ to\ s\r\n\r\n\ @param\ s\ is\ a\ string\ which\ sets\ word\r\n
+comment2.params=s
+comment2.target=void\ setString(java.lang.String)
+comment2.text=\r\n\ Method\ setString\ sets\ String\ word\ \=\ to\ s\r\n\r\n\ @param\ s\ is\ a\ string\ which\ sets\ word\r\n
+comment3.params=
+comment3.target=char\ getFirstChar()
+comment3.text=\r\n\ Method\ getFirstChar\ returns\ the\ first\ character\ of\ a\ word\r\n\r\n\ @return\ the\ first\ character\ of\ a\ word\r\n
+comment4.params=
+comment4.target=char\ getLastChar()
+comment4.text=\r\n\ Method\ getLastChar\ returns\ the\ last\ character\ of\ a\ word\r\n\r\n\ @return\ the\ last\ character\ of\ a\ word\r\n
+comment5.params=
+comment5.target=java.lang.String\ getBackWards()
+comment5.text=\r\n\ Method\ getBackWards\ returns\ the\ word\ backwards\r\n\r\n\ @return\ a\ given\ word\ backwards\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Method\ toString\ returns\ the\ value\ of\ word\r\n\r\n\ @return\ word\r\n
+numComments=7

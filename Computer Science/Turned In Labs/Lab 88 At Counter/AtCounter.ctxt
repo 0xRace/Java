@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=rows\ cols
+comment0.target=AtCounter(int,\ int)
+comment1.params=r\ c
+comment1.target=int\ countAts(int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\nthis\ method\ will\ return\ all\ values\ in\ the\ matrix\r\nthis\ method\ returns\ a\ view\ of\ the\ matrix\r\nthat\ looks\ like\ a\ matrix\r\n
+numComments=3

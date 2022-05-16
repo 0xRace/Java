@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TwoToTen()
+comment0.text=\r\n\ TwoToTen\ Constructor\ constructs\ a\ new\ instance\ of\ TwoToTen\ and\ sets\ string\ binary\ to\ ""\r\n\r\n
+comment1.params=bin
+comment1.target=TwoToTen(java.lang.String)
+comment1.text=\r\n\ TwoToTen\ Constructor\ constructs\ a\ new\ instance\ of\ TwoToTen\ and\ sets\ string\ binary\ to\r\n\ a\ given\ string\ bin\r\n\r\n\ @param\ bin\ sets\ binary\r\n
+comment2.params=bin
+comment2.target=void\ setTwo(java.lang.String)
+comment2.text=\r\n\ Method\ setTwo\ sets\ the\ value\ of\ binary\r\n\r\n\ @param\ bin\ sets\ binary\r\n
+comment3.params=
+comment3.target=int\ getBaseTen()
+comment3.text=\r\n\ Method\ getBaseTen\ converts\ int\ binary\ to\ base\ ten\ and\ returns\ the\ answer\r\n\r\n\ @return\ the\ base\ ten\ value\ of\ int\ binary\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\r\n\r\n\ @return\ The\ return\ the\ value\ of\ int\ binary\r\n
+numComments=5

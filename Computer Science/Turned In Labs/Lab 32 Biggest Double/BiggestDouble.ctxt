@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BiggestDouble()
+comment0.text=\r\n\ BiggestDouble\ Constructor\ creates\ a\ new\ instance\ of\ Biggest\ Double\ and\ sets\ all\ values\ equal\ to\ 0\r\n\ \r\n
+comment1.params=a\ b\ c\ d
+comment1.target=BiggestDouble(double,\ double,\ double,\ double)
+comment1.text=\r\n\ BiggestDouble\ Constructor\ creates\ a\ new\ instance\ of\ biggest\ double\ and\ sets\ all\ values\ to\ four\ given\ values\r\n\r\n\ @param\ a\ is\ an\ double\ which\ sets\ one\r\n\ @param\ b\ is\ an\ double\ which\ sets\ two\r\n\ @param\ c\ is\ an\ double\ which\ sets\ three\r\n\ @param\ d\ is\ an\ double\ which\ sets\ four\r\n
+comment2.params=a\ b\ c\ d
+comment2.target=void\ setDoubles(double,\ double,\ double,\ double)
+comment2.text=\r\n\ Method\ setDoubles\ sets\ the\ value\ of\ one,\ two,\ three,\ four\ to\ four\ given\ values\r\n\r\n\ @param\ a\ is\ an\ double\ which\ sets\ one\r\n\ @param\ b\ is\ an\ double\ which\ sets\ two\r\n\ @param\ c\ is\ an\ double\ which\ sets\ three\r\n\ @param\ d\ is\ an\ double\ which\ sets\ four\r\n
+comment3.params=
+comment3.target=double\ getBiggest()
+comment3.text=\r\n\ Method\ getBiggest\ finds\ the\ biggest\ double\ of\ the\ 4\ which\ have\ been\ given\r\n\r\n\ @return\ the\ value\ of\ the\ biggest\ double\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\ returns\ what\ the\ original\ four\ doubles\ were\r\n\r\n\ @return\ the\ value\ of\ the\ original\ four\ doubles\r\n
+numComments=5

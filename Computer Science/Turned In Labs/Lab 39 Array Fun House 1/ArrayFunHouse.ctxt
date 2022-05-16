@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=numArray\ start\ stop
+comment0.target=int\ getSum(int[],\ int,\ int)
+comment0.text=\r\n\ Method\ getSum\r\n\r\n\ getSum()\ will\ return\ the\ sum\ of\ the\ numbers\ from\ start\ to\ stop,\ not\ including\ stop\r\n\ @param\ numArray\ \r\n\ @param\ start\r\n\ @param\ stop\r\n\ @return\ sum\ of\ the\ values\ in\ numArray\ from\ index\ start\ to\ index\ stop,\ not\ including\ stop\r\n
+comment1.params=numArray\ val
+comment1.target=int\ getCount(int[],\ int)
+comment1.text=\r\n\ Method\ getCount\r\n\ \r\n\ getCount()\ will\ return\ number\ of\ times\ val\ is\ present\r\n\ @param\ numArray\ \r\n\ @param\ val\ \r\n\ @return\ the\ number\ of\ times\ that\ val\ is\ present\r\n
+comment2.params=numArray\ val
+comment2.target=int[]\ removeVals(int[],\ int)
+comment2.text=\r\n\ Method\ removeVals\r\n\ removeVals()\ will\ remove\ all\ values\ of\ val\ from\ the\ array\ numArray\r\n\ it\ must\ return\ a\ smaller,\ resized\ array\r\n\ \r\n\ @param\ numArray\ \r\n\ @param\ val\ the\ value\ to\ be\ removed\ from\ numArray\r\n\ @return\ the\ smaller,\ resized\ array\r\n
+comment3.params=numArray
+comment3.target=java.lang.String\ toString(int[])
+comment3.text=\r\n\ Method\ toString\r\n\r\n\ This\ method\ is\ complete.\ \ You\ do\ not\ need\ to\ change\ it.\r\n\ \r\n\ @param\ numArray\r\n\ @return\ String\ containing\ the\ contents\ of\ numArray\r\n
+numComments=4

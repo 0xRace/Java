@@ -1,0 +1,223 @@
+package graphs;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Set;
+import java.util.Stack;
+import java.util.TreeMap;
+
+/**
+ * Implements a graph. We use two maps: one map for adjacency properties
+ * (adjancencyMap) and one map (dataMap) to keep track of the data associated
+ * with a vertex.
+ * 
+ * @author cmsc132
+ * 
+ * @param <E>
+ */
+public class Graph<E> {
+	/* You must use the following maps in your implementation */
+	private HashMap<String, HashMap<String, Integer>> adjacencyMap;
+	private HashMap<String, E> dataMap;
+	private Stack<String> s;
+	private Queue<String> q;
+	private Queue<Entry> p;
+
+	public Graph() {
+		adjacencyMap = new HashMap<String, HashMap<String, Integer>>();
+		dataMap = new HashMap<String, E>();
+	}
+
+	public void addDirectedEdge(String startVertexName, String endVertexName, int cost) {
+		if (!adjacencyMap.containsKey(startVertexName) || !adjacencyMap.containsKey(endVertexName)) {
+			throw new IllegalArgumentException();
+		}
+			adjacencyMap.get(startVertexName).put(endVertexName, cost);	
+	}
+
+	public void addVertex(String vertexName, E data) {
+		if (adjacencyMap.containsKey(vertexName))
+			throw new IllegalArgumentException();
+		else {
+			dataMap.put(vertexName, data);
+			HashMap<String, Integer> temp = new HashMap<String, Integer>();
+			adjacencyMap.put(vertexName, temp);
+		}
+	}
+
+	public int getCost(String startVertexName, String endVertexName) {
+		if (!adjacencyMap.containsKey(startVertexName) || !adjacencyMap.get(startVertexName).containsKey(endVertexName))
+			throw new IllegalArgumentException();
+		return adjacencyMap.get(startVertexName).get(endVertexName);
+	}
+
+	public E getData(String vertex) {
+		if (!dataMap.containsKey(vertex)) {
+			throw new IllegalArgumentException();
+		}
+		return dataMap.get(vertex);
+	}
+
+	public Set<String> getVertices() {
+		return dataMap.keySet();
+	}
+
+	public Map<String, Integer> getAdjacentVertices(String vertexName) {
+		if(adjacencyMap.containsKey(vertexName))
+		return adjacencyMap.get(vertexName);
+		return new HashMap<String,Integer>();
+	}
+
+	public String toString() {
+		TreeMap<String, String> temp = new TreeMap<String, String>();
+		String result = "";
+
+		for (String a : adjacencyMap.keySet()) {
+			temp.put(a, "");
+		}
+
+		result += "Vertices: " + temp.keySet().toString() + "\nEdges:";
+
+		for (String a : temp.keySet()) {
+			result += "\nVertex(" + a + ")--->" + adjacencyMap.get(a).toString();
+		}
+
+		return result;
+	}
+
+	public <T> void doDepthFirstSearch(String startVertexName, CallBack<T,E> callback) {
+		Stack<String> stack = new Stack<String>();
+		HashMap<String, Boolean> tag = new HashMap<String, Boolean>();
+		String x;
+
+		for (String a : dataMap.keySet()) {
+			tag.put(a, false);
+		}
+
+		stack.push(startVertexName);
+
+		while (!stack.isEmpty()) {
+			x = stack.pop();
+			if (!tag.get(x)) {
+				callback.processVertex(x, dataMap.get(x));
+				tag.put(x, true);
+				for (String b : adjacencyMap.get(x).keySet()) {
+					if (!tag.get(b)) {
+						stack.push(b);
+					}
+				}
+			}
+		}
+		// s = new Stack<String>();
+		// if (dataMap.containsKey(startVertexName)) {
+		// s.push(startVertexName);
+		// String w = s.peek();
+		// while (w != null) {
+		// doDepthFirstSearch(w, callback);
+		// w = s.pop();
+		// }
+		// }
+	}
+
+	public void doBreadthFirstSearch(String startVertexName, CallBack<E> callback) {
+		LinkedList<String> queue = new LinkedList<String>();
+		HashMap<String, Boolean> tag = new HashMap<String, Boolean>();
+		String x;
+
+		for (String a : dataMap.keySet()) {
+			tag.put(a, false);
+		}
+
+		queue.add(startVertexName);
+
+		while (!queue.isEmpty()) {
+			x = queue.removeFirst();
+			if (!tag.get(x)) {
+				callback.processVertex(x, dataMap.get(x));
+				tag.put(x, true);
+				for (String b : adjacencyMap.get(x).keySet()) {
+					if (!tag.get(b)) {
+						queue.add(b);
+					}
+				}
+			}
+		}
+		// q = new PriorityQueue<String>();
+		// while (!q.isEmpty()) {
+		// String c = q.poll();
+		// if (dataMap.containsKey(c)) {
+		// doBreadthFirstSearch(c, callback);
+		// String w = q.peek();
+		// while (w != null) {
+		// q.offer(w);
+		// w = q.poll();
+		// }
+		// }
+		// }
+	}
+
+	public int doDijkstras(String startVertexName, String endVertexName, ArrayList<String> shortestPath) {
+		if (!dataMap.containsKey(startVertexName) || !dataMap.containsKey(endVertexName)) {
+			throw new IllegalArgumentException();
+		}
+		p = new PriorityQueue<Entry>();
+		HashMap<String, String> hs = new HashMap<String, String>();
+		HashMap<String, Integer> hm = new HashMap<String, Integer>();
+		p.offer(new Entry(startVertexName, null, 0));
+		TreeMap<String, Integer> tm = null;
+		while (!p.isEmpty()) {
+			Entry v = p.poll();
+			tm = new TreeMap<String, Integer>(getAdjacentVertices(v.element));
+			for (String str : getAdjacentVertices(v.element).keySet()) {
+				if (!hs.containsKey(str) && !str.equals(v.element)) {
+					Entry successor = null;
+					Iterator<Entry> itr = p.iterator();
+					while (itr.hasNext()) {
+						Entry entry = (Entry) itr.next();
+						if (entry.equals(str)) {
+							successor = entry;
+							break;
+						}
+					}
+					if (successor == null) {
+						int cost = v.cost + getCost(v.element, str);
+						p.offer(new Entry(str, v.element, cost));
+					} else {
+						int cCost = v.cost + getCost(v.element, str);
+						if (cCost < successor.cost) {
+							p.remove(successor);
+							p.offer(new Entry(str, v.element, cCost));
+						}
+					}
+				}
+			}
+			hs.put(v.element, v.predecessor);
+			tm.put(v.element, v.cost);
+			hm.put(v.element, v.cost);
+		}
+
+		String entry = hs.get(endVertexName);
+		Integer ent = hm.get(endVertexName);
+		if (entry == null || ent == null) {
+			shortestPath.add("None");
+			return -1;
+		}
+		Stack<String> ordering = new Stack<>();
+		ordering.push(endVertexName);
+		String currentEle = endVertexName;
+		while (hs.get(currentEle) != startVertexName) {
+			currentEle = hs.get(currentEle);
+			ordering.push(currentEle);
+		}
+		while (ordering.size() > 0) {
+			shortestPath.add(ordering.pop()); // reversing the order
+		}
+		return tm.get(endVertexName);
+
+	}
+}

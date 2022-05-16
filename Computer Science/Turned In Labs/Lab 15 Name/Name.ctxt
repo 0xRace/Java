@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Name()
+comment0.text=\r\n\ Name\ Constructor\r\n\ instantiates\ instance\ of\ Name\r\n
+comment1.params=s
+comment1.target=Name(java.lang.String)
+comment1.text=\r\n\ Name\ Constructor\r\n\ sets\ String\ name\ equal\ to\ string\ s\ and\ creates\ instance\ of\ Name\r\n\ @param\ s\ is\ a\ name\r\n
+comment2.params=s
+comment2.target=void\ setName(java.lang.String)
+comment2.text=\r\n\ Method\ setName\r\n\ sets\ name\ equal\ to\ string\ s\r\n\ @param\ s\ is\ a\ name\r\n
+comment3.params=
+comment3.target=java.lang.String\ getFirst()
+comment3.text=\r\n\ Method\ getFirst\r\n\ returns\ the\ first\ name\ of\ the\ person\r\n\ @return\ The\ return\ value\r\n
+comment4.params=
+comment4.target=java.lang.String\ getLast()
+comment4.text=\r\n\ Method\ getLast\r\n\ returns\ the\ last\ name\ of\ the\ person\r\n\ @return\ The\ return\ value\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Method\ toString\r\n\ returns\ the\ full\ name\ of\ the\ person\r\n\ @return\ The\ return\ value\r\n
+numComments=6

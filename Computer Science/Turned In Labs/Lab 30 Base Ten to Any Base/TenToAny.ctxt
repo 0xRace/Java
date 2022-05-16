@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TenToAny()
+comment0.text=\r\n\ TenToAny\ Constructor\ creates\ a\ new\ instance\ of\ TenToAny\ and\ sets\ all\ variables\ equal\ to\ 0\r\n\r\n
+comment1.params=num\ base
+comment1.target=TenToAny(int,\ int)
+comment1.text=\r\n\ TenToAny\ Constructor\ creates\ a\ new\ instance\ of\ TenToAny\ and\ sets\ variables\ base10\ and\ newBase\r\n\r\n\ @param\ num\ sets\ int\ base10\r\n\ @param\ base\ sets\ int\ newBase\r\n
+comment2.params=num\ base
+comment2.target=void\ setTen(int,\ int)
+comment2.text=\r\n\ Method\ setTen\ sets\ variables\ base10\ and\ newBase\r\n\r\n\ @param\ num\ sets\ int\ base10\r\n\ @param\ base\ sets\ int\ newBase\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNewNum()
+comment3.text=\r\n\ Method\ getNewNum\ converts\ a\ given\ number\ to\ a\ desired\ base\ and\ returns\ the\ value\r\n\r\n\ @return\ the\ number\ which\ has\ been\ converted\ to\ a\ new\ base\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\ returns\ a\ string\ stating\ the\ original\ number\ and\ its\ value\ in\ a\ new\ base\ \r\n\r\n\ @return\ a\ string\ stating\ the\ original\ number\ and\ its\ value\ in\ a\ new\ base\ \r\n
+numComments=5

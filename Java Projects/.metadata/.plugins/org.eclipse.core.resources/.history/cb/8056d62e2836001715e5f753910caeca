@@ -1,0 +1,156 @@
+package names;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Names  {
+	HashMap<Integer, HashMap<Boolean,HashMap<Integer,String>>> struct=new HashMap<Integer, HashMap<Boolean,HashMap<Integer,String>>>();
+	ArrayList<String> copy = new ArrayList<String>();
+	private static String sync = "";
+  public int numNamePairs() {
+    //throw new UnsupportedOperationException("You must write this method.");
+	  int x=0;
+	  for(Integer i: struct.keySet())
+	  {
+		  x=x+struct.get(i).get(true).size();
+	  }
+	  return x;
+  }
+
+  public void getNames(String[] urls) {
+	  if (urls == null) {
+			throw new IllegalArgumentException();
+		}
+		for (String s : urls) {
+			copy.add(s);
+		}
+		HashSet<Thread> endThis = new HashSet<Thread>();
+		for (String s : urls) {
+			myThread temp = new myThread();
+			endThis.add(temp);
+			temp.start();
+		}
+		for (Thread endPlease : endThis) {
+			try {
+				endPlease.join();
+			} catch (InterruptedException e) {
+
+			}
+		}
+		System.out.println(struct.get(1995).get(true).get(3355));
+    
+  }
+
+  public String getGirlName(int year, int rank) {
+    //throw new UnsupportedOperationException("You must write this method.");
+	  //System.out.println(struct.get(year).get(true).get(rank));
+	  return struct.get(year).get(true).get(rank);
+	System.out.println(struct.get(1995).get(true).get(3355));
+	  if(struct.containsKey(year) && struct.get(year).containsKey(true) && struct.get(year).get(true).containsKey(rank))
+	  {
+		  return struct.get(year).get(true).get(rank);
+	  }return null;
+  }
+
+  public String getBoyName(int year, int rank) {
+    //throw new UnsupportedOperationException("You must write this method.");
+	  if(struct.containsKey(year) && struct.get(year).containsKey(false) && struct.get(year).get(false).containsKey(rank))
+	  {
+		  //System.out.println(struct.get(year).get(false).get(rank));
+		  return struct.get(year).get(false).get(rank);
+	  }return null;
+  }
+
+  public int getGirlRank(int year, String name) {
+    //throw new UnsupportedOperationException("You must write this method.");
+	  if(struct.containsKey(year) && struct.get(year).containsKey(true) && struct.get(year).get(true).containsValue(name))
+	  {
+		  for(Integer i:struct.get(year).get(true).keySet())
+		  {
+			if(struct.get(year).get(true).get(i).equals(name))
+			{
+				return i;
+			}  
+		  }
+		  
+	  }
+	  return -1;
+  }
+
+  public int getBoyRank(int year, String name) {
+	  if(struct.containsKey(year) && struct.get(year).containsKey(false) && struct.get(year).get(false).containsValue(name))
+	  {
+		  for(Integer i:struct.get(year).get(false).keySet())
+		  {
+			if(struct.get(year).get(false).get(i).equals(name))
+			{
+				//System.out.println(struct.get(year).get(false).get(i));
+				return i;
+			}  
+		  }
+		  
+	  }
+	  return -1;
+  }
+
+  class myThread extends Thread {
+		{
+			try {
+				URL url = new URL(copy.remove(0));
+				URLConnection conn = url.openConnection();
+
+				BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+				for (int i = 0; i < 11; i++) {
+					br.readLine();
+				}
+				String in;
+				synchronized (sync) {
+					while (!(in = br.readLine()).equals("</body>")) {
+						in = in.substring(0, in.length() - 4);
+						String[] info = in.split(" ");
+						int year=Integer.parseInt(info[0]);
+						//System.out.println(info[0]+info[4]);
+						int mRank=Integer.parseInt(info[2]);
+						int fRank=Integer.parseInt(info[4]);
+						if(!struct.containsKey(year))
+						{
+						
+							struct.put(year, new HashMap<Boolean, HashMap<Integer, String>>());
+							struct.get(year).put(true, new HashMap<Integer, String>());
+							struct.get(year).put(false, new HashMap<Integer, String>());
+							
+						}
+						struct.get(year).get(false).put(mRank, info[1]);
+						struct.get(year).get(true).put(fRank, info[3]);
+						//System.out.println(struct.get(year).get(true).get(fRank));
+						//System.out.println(struct.get(year).get(false).get(mRank));
+						
+						
+
+
+
+					}
+				}
+				br.close();
+				//System.out.println(struct.get(1995).get(true).get(3355));
+				//System.out.println(struct.get(1997).get(true).get(3398));
+				//System.out.println(struct.get(year).get(false).get(mRank));
+
+			} catch (MalformedURLException e) {
+
+			} catch (IOException e1) {
+
+			}
+
+		}
+	}
+}
+
+

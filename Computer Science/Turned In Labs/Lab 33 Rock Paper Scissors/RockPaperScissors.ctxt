@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RockPaperScissors()
+comment0.text=\r\n\ RockPaperScissors\ Constructor\r\n\ Set\ playChoice,\ compChoice\ to\ empty\ string\r\n
+comment1.params=player
+comment1.target=RockPaperScissors(java.lang.String)
+comment1.text=\r\n\ RockPaperScissors\ Constructor\r\n\ Call\ setPlayers\r\n\ @param\ player\ is\ the\ player's\ choice\ ("R",\ "P",\ or\ "S")\r\n
+comment2.params=player
+comment2.target=void\ setPlayers(java.lang.String)
+comment2.text=\r\n\ Method\ setPlayers\r\n\ \r\n\ assign\ person\ player\r\n\ \r\n\ int\ num\ \=\ random\ number\ 0,\ 1,\ or\ 2\r\n\ \r\n\ if\ 0,\ assign\ compChoice\ "R"\r\n\ else\ if\ 1,\ assign\ compChoice\ "P"\r\n\ else\ assign\ compChoice\ "S"\r\n\ \r\n\ @param\ player\ is\ the\ player's\ choice\ ("R",\ "P",\ or\ "S")\r\n
+comment3.params=
+comment3.target=java.lang.String\ determineWinner()
+comment3.text=\r\n\ Method\ determineWinner\r\n\ Determines\ the\ winner\ of\ the\ game,\ if\ any\r\n\r\n\ @return\ winner,\ a\ string\ that\ indicates\ the\ winner\r\n\ winner\ should\ be\ one\ of\ the\ following\:\r\n\ \r\n\ "Draw\ game\!"\r\n\ "Player\ wins\ <<Paper\ Covers\ Rock>>\!"\r\n\ "Computer\ wins\ <<Rock\ Breaks\ Scissors>>\!"\r\n\ "Player\ wins\ <<\ Scissors\ Cuts\ Paper>>\!"\r\n\ "Computer\ wins\ <<Paper\ Covers\ Rock>>\!"\r\n\ "Player\ wins\ <<Rock\ Breaks\ Scissors>>\!"\r\n\ "Computer\ wins\ <<Scissors\ Cuts\ Paper>>\!"\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\r\n\ Indicates\ the\ player's\ choice\ and\ the\ computer's\ choice\r\n\ \r\n\ @return\ output\ is\ a\ string\ containing\ the\ player's\ choice\r\n\ and\ the\ computer's\ choice\r\n
+numComments=5

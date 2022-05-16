@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Method\ main\r\nwhen\ run,\ will\ print\ all\ numbers\ from\ 1000\ to\ 2000\ that\ contain\ the\ digit\ 3\r\n\ \r\n
+comment1.params=number
+comment1.target=boolean\ hasThree(int)
+comment1.text=\r\n\ Method\ hasThree\ determines\ if\ a\ number\ contains\ the\ digit\ 3\r\n\r\n\ @param\ number\ is\ a\ integer\ between\ 1000\ and\ 2000\r\n\ @return\ true\ if\ the\ string\ contains\ any\ "3"s,\ false\ otherwise\r\n
+numComments=2

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WordsCompare()
+comment0.text=\r\n\ WordsCompare\ Constructor\r\n\ creates\ a\ new\ instance\ of\ WordsCompare\r\n\ sets\ int\ compare\ to\ 0\ and\ wordOne\ and\ wordTwo\ to\ ""\r\n\r\n
+comment1.params=one\ two
+comment1.target=WordsCompare(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ WordsCompare\ Constructor\r\n\ creates\ a\ new\ intsance\ of\ WordsCompare\r\n\ @param\ one\ is\ a\ string\ which\ sets\ wordOne\r\n\ @param\ two\ is\ a\ string\ gwhich\ sets\ wordTwo\r\n\ int\ compare\ is\ set\ to\ 0\r\n
+comment2.params=one\ two
+comment2.target=void\ setWords(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Method\ setWords\ sets\ the\ string\ variables\ to\ two\ given\ strings\r\n\ @param\ one\ is\ a\ string\ which\ sets\ wordOne\r\n\ @param\ two\ is\ a\ string\ which\ sets\ wordTwo\r\n
+comment3.params=
+comment3.target=void\ compare()
+comment3.text=\r\n\ Method\ compare\ compares\ the\ two\ given\ words\ so\ that\ they\ may\ later\ be\ evaluated\ for\ placement\ in\ a\ dictionary\r\n\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\ evaluates\ where\ the\ words\ should\ be\ placed\ based\ on\ the\ value\ of\ compare\r\n\r\n\ @return\ a\ string\ stating\ where\ which\ word\ should\ be\ placed\r\n
+numComments=5

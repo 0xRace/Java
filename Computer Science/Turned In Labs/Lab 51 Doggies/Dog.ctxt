@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=a\ n
+comment0.target=Dog(int,\ java.lang.String)
+comment0.text=\r\n\ Dog\ Constructor\ creates\ a\ new\ instance\ of\ Dog\r\n\r\n\ @param\ a\ is\ an\ integer\ which\ sets\ age\r\n\ @param\ n\ is\ a\ string\ which\ sets\ name\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ Method\ getName\r\n\r\n\ @return\ the\ name\ of\ the\ dog\r\n
+comment2.params=
+comment2.target=int\ getAge()
+comment2.text=\r\n\ Method\ getAge\r\n\r\n\ @return\ the\ age\ of\ the\ dog\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Method\ toString\r\n\r\n\ @return\ the\ age\ and\ name\ of\ a\ dog\r\n
+numComments=4

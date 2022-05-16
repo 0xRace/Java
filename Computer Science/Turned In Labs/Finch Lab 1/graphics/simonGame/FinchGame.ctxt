@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FinchGame()
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=edu.cmu.ri.createlab.terk.robot.finch.Finch\ getFinch()
+comment3.params=
+comment3.target=boolean\ isCovered()
+comment3.text=These\ methods\ check\ if\ a\ given\ game\ state\ is\ satisfied.
+numComments=4

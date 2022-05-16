@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=number
+comment0.target=java.util.ArrayList\ getListOfFactors(int)
+comment0.text=\r\n\ Method\ getListOfFactors\ gets\ the\ list\ of\ factors\ for\ a\ certain\ number\r\n\r\n\ @param\ number\ is\ the\ number\ for\ which\ we\ will\ find\ factors\r\n\ @return\ the\ array\ factors\ which\ contains\ all\ of\ the\ factors\ for\ the\ given\ nuber\r\n
+comment1.params=nums
+comment1.target=void\ keepOnlyCompositeNumbers(java.util.List)
+comment1.text=\r\n\ Method\ keepOnlyCompositeNumbers\ keeps\ only\ the\ composite\ numbers\ in\ a\ given\ array\r\n\r\n\ @param\ nums\ is\ the\ array\ for\ which\ we\ will\ remove\ all\ non-composite\ numbers\r\n
+numComments=2

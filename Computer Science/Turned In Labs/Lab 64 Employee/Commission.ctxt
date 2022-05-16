@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=eName\ eAddress\ ePhone\ socSecNumber\ rate\ c
+comment0.target=Commission(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ double)
+comment1.params=totalSales
+comment1.target=void\ addSales(double)
+comment2.params=
+comment2.target=double\ pay()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

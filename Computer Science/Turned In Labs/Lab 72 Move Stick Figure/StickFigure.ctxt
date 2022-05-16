@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=center\ bottom\ shade\ size
+comment0.target=StickFigure(int,\ int,\ java.awt.Color,\ int)
+comment1.params=page
+comment1.target=void\ draw(java.awt.Graphics)
+comment2.params=over\ down
+comment2.target=void\ move(int,\ int)
+comment3.params=factor
+comment3.target=void\ grow(double)
+comment4.params=newPosition
+comment4.target=void\ setLegPosition(int)
+comment5.params=newPos
+comment5.target=void\ setArmPosition(int)
+numComments=6

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=numPrimes
+comment0.target=int[]\ getPrimeList(int)
+comment0.text=\r\n\ Method\ getPrimeList\r\n\r\n\ returns\ an\ array\ containing\ the\ first\ numPrimes\ starting\ at\ 2\r\n\ @param\ numPrimes\ sets\ the\ number\ of\ primes\ which\ will\ be\ found\ and\ displayed\r\n\ @return\ an\ array\ full\ of\ primes\r\n
+comment1.params=numPrimes\ primeStart
+comment1.target=int[]\ getPrimeList(int,\ int)
+comment1.text=\r\n\ Method\ getPrimeList\ gets\ a\ list\ of\ primes\ with\ numPrimes\ primes\ and\ starting\ at\ primeStart\r\n\r\n\ returns\ an\ array\ containing\ the\ first\ numPrimes\ primes\ starting\ at\ primeStart\r\n\ \r\n\ @param\ numPrimes\ is\ the\ number\ of\ primes\ that\ will\ be\ found\r\n\ @param\ primeStart\ is\ where\ the\ search\ for\ primes\ will\ begin\r\n\ @return\ an\ array\ full\ of\ primes\ starting\ at\ primestart\r\n
+comment2.params=num
+comment2.target=boolean\ isPrime(int)
+comment2.text=\r\n\ Method\ isPrime\ determines\ if\ a\ number\ is\ prime\r\n\r\n\ returns\ true\ if\ num\ is\ prime\r\n\ a\ prime\ number\ is\ any\ number\ only\ divisible\ by\ 1\ and\ itself\r\n\ \r\n\ @param\ num\ is\ a\ number\ whose\ primeness\ will\ be\ determined\r\n\ @return\ true\ of\ the\ given\ number\ is\ primes\r\n
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=num
+comment0.target=boolean\ isOdd(int)
+comment0.text=\r\n\ Method\ isOdd\ tells\ if\ a\ given\ number\ is\ odd\r\n\r\n\ @param\ num\ is\ a\ given\ integer\r\n\ @return\ true\ if\ num\ is\ odd,\ or\ false\ if\ num\ is\ even\r\n
+comment1.params=num
+comment1.target=boolean\ isEven(int)
+comment1.text=\r\n\ Method\ isEven\ tells\ if\ a\ given\ number\ is\ even\r\n\r\n\ @param\ num\ is\ a\ given\ integer\r\n\ @return\ true\ if\ num\ is\ even,\ or\ false\ if\ num\ is\ odd\r\n
+numComments=2

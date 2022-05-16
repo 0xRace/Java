@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Grade()
+comment0.text=\r\n\ Grade\ Constructor\r\n\ creates\ a\ new\ instance\ of\ Grade\ with\ int\ numGrade\ set\ to\ 0\r\n\r\n
+comment1.params=grade
+comment1.target=Grade(int)
+comment1.text=\r\n\ Grade\ Constructor\r\n\ creates\ a\ new\ instance\ of\ Grade\ with\ int\ numGrade\ set\ to\ grade\r\n\ @param\ grade\ is\ an\ integer\ which\ sets\ numGrade\r\n
+comment2.params=grade
+comment2.target=void\ setGrade(int)
+comment2.text=\r\n\ Method\ setGrade\ sets\ the\ value\ of\ numGrade\r\n\r\n\ @param\ grade\ is\ an\ integer\ which\ sets\ numGrade\r\n
+comment3.params=
+comment3.target=java.lang.String\ getLetterGrade()
+comment3.text=\r\n\ Method\ getLetterGrade\ finds\ the\ letter\ grade\ that\ correlates\ to\ each\ number\ grade\r\n\r\n\ @return\ the\ letter\ grade\ which\ has\ been\ calculated\ from\ a\ given\ number\ grade\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\ returns\ the\ letter\ grade\ correlating\ to\ the\ number\ grade\r\n\r\n\ @return\ a\ string\ stating\ that\ a\ given\ number\ grade\ is\ equal\ to\ a\ certain\ letter\ grade\r\n
+numComments=5

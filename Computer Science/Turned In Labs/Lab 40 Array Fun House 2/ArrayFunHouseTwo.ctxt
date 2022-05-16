@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=numArray
+comment0.target=boolean\ goingUp(int[])
+comment0.text=\r\n\ Method\ goingUp\r\n\ \r\n\ goingUp()\ will\ return\ true\ if\ all\ numbers\r\n\ in\ numArray\ are\ in\ increasing\ order\r\n\ [1,2,6,9,23]\ returns\ true\r\n\ [9,\ 11,\ 13,\ 8]\ \ returns\ false\r\n\ \r\n\ @param\ numArray\r\n\ @return\ true\ if\ the\ numbers\ are\ in\ increasing\ order,\ false\ otherwise\r\n
+comment1.params=numArray
+comment1.target=boolean\ goingDown(int[])
+comment1.text=\r\n\ Method\ goingDown\r\n\r\n\ goingDown()\ will\ return\ true\ if\ all\ numbers\r\n\ in\ numArray\ are\ in\ decreasing\ order\r\n\ [31,12,6,2,1]\ returns\ true\r\n\ [31,\ 20,\ 10,\ 15,\ 9]\ returns\ false\r\n\ \r\n\ @param\ numArray\r\n\ @return\ true\ if\ the\ numbers\ are\ in\ decreasing\ order,\ false\ otherwise\r\n
+comment2.params=numArray\ count\ x
+comment2.target=int[]\ getCountValuesBiggerThanX(int[],\ int,\ int)
+comment2.text=\r\n\ Method\ getCountValuesBiggerThanX\r\n\ \r\n\ getValuesBiggerThanX\ will\ return\ an\ array\ that\ contains\r\n\ count\ number\ of\ values\ that\ are\ larger\ than\ parameter\ x\r\n\ [1,2,3,4,5,6,7,8,9,10,11,6],3,5\ \ would\ return\ [6,7,8]\r\n\ \r\n\ @param\ numArray\ \r\n\ @param\ count\ the\ number\ of\ values\ larger\ than\ x\r\n\ @param\ x\ the\ target\ value\r\n\ @return\ an\ array\ of\ size\ count\ that\ contains\ values\ larger\ than\ x\r\n
+comment3.params=numArray
+comment3.target=java.lang.String\ toString(int[])
+comment3.text=\r\n\ Method\ toString\r\n\r\n\ This\ method\ is\ complete.\r\n\r\n\ @param\ numArray\ \r\n\ @return\ the\ contents\ of\ numArray\r\n
+numComments=4

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=letter\ size
+comment0.target=void\ printBox(char,\ int)
+comment0.text=\r\n\ Method\ printBox\ prints\ a\ box\r\n\r\n\ @param\ letter\ is\ a\ char\ which\ determines\ what\ the\ box\ will\ be\ constructed\ out\ of\r\n\ @param\ size\ is\ an\ integer\ which\ sets\ the\ size\ of\ the\ box\ \r\n
+numComments=1

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StringOddOrEven()
+comment0.text=\r\n\ StringOddOrEven\ Constructor\r\n\r\n
+comment1.params=s
+comment1.target=StringOddOrEven(java.lang.String)
+comment1.text=\r\n\ StringOddOrEven\ Constructor\r\n\r\n\ @param\ s\ is\ a\ given\ string\ whose\ value\ is\ set\ to\ word\r\n
+comment2.params=s
+comment2.target=void\ setString(java.lang.String)
+comment2.text=\r\n\ Method\ setString\r\n\r\n\ @param\ s\ is\ a\ given\ string\ whose\ value\ is\ set\ to\ word\r\n
+comment3.params=
+comment3.target=boolean\ isEven()
+comment3.text=\r\n\ Method\ isEven\r\n\r\n\ @return\ true\ if\ the\ number\ of\ letters\ in\ word\ is\ even,\ or\ false\ if\ not\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\r\n\r\n\ @return\ the\ value\ of\ word\ and\ tell\ if\ the\ number\ of\ characters\ in\ the\ string\ is\ even\ or\ not\r\n
+numComments=5

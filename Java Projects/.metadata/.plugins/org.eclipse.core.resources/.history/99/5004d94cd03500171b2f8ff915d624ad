@@ -1,0 +1,7 @@
+package graph;
+
+public interface CallBack<T, E> {
+
+	void processVertex(String x, E e);
+
+}

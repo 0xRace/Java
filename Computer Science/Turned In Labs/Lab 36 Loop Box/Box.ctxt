@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Box()
+comment0.text=\r\n\ Box\ Constructor\ creates\ a\ new\ instance\ of\ Box\ and\ sets\ size\ equal\ to\ 0\r\n\r\n
+comment1.params=count
+comment1.target=Box(int)
+comment1.text=\r\n\ Box\ Constructor\ creates\ a\ new\ instance\ of\ Box\ and\ sets\ size\r\n\r\n\ @param\ count\ is\ an\ integer\ which\ sets\ size\r\n
+comment2.params=count
+comment2.target=void\ setSize(int)
+comment2.text=\r\n\ Method\ setSize\r\n\r\n\ @param\ count\ is\ an\ integer\ which\ sets\ size\r\n
+comment3.params=
+comment3.target=int\ getSize()
+comment3.text=\r\n\ Method\ getSize\r\n\r\n\ @return\ the\ value\ of\ int\ size\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\r\n\r\n\ @return\ a\ box\ made\ of\ *\ and\ \#\ which\ has\ been\ drawn\ through\ nested\ for\ loops\ \r\n\ and\ whose\ size\ is\ determined\ by\ int\ size\r\n
+numComments=5

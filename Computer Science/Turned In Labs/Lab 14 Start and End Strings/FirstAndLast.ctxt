@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=FirstAndLast(java.lang.String)
+comment0.text=\r\n\ FirstAndLast\ Constructor\r\n\ Sets\ word\ to\ a\ given\ string\r\n\ @param\ s\ is\ set\ equal\ to\ word\r\n
+comment1.params=s
+comment1.target=void\ setString(java.lang.String)
+comment1.text=\r\n\ Method\ setString\r\n\ Sets\ word\ to\ a\ given\ string\r\n\ @param\ s\ is\ set\ equal\ to\ word\r\n
+comment2.params=
+comment2.target=java.lang.String\ getFirst()
+comment2.text=\r\n\ Method\ getFirst\r\n\ Returns\ the\ first\ letter\ of\ the\ string\ word\r\n\ @return\ The\ first\ letter\r\n
+comment3.params=
+comment3.target=java.lang.String\ getLast()
+comment3.text=\r\n\ Method\ getLast\r\n\ Returns\ the\ last\ letter\ of\ the\ string\ word\r\n\ @return\ The\ last\ letter\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\r\n\ Returns\ the\ value\ of\ word\r\n\ @return\ The\ word\ value\r\n
+numComments=5

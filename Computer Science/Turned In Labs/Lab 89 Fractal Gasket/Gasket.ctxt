@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Gasket()
+comment1.params=window
+comment1.target=void\ paint(java.awt.Graphics)
+comment2.params=window\ x1\ y1\ x2\ y2\ x3\ y3
+comment2.target=void\ gasket(java.awt.Graphics,\ int,\ int,\ int,\ int,\ int,\ int)
+comment3.params=
+comment3.target=void\ run()
+numComments=4

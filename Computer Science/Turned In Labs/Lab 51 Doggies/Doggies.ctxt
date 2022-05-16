@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=size
+comment0.target=Doggies(int)
+comment0.text=\r\n\ Doggies\ Constructor\r\n\r\n\ @param\ size\ sets\ the\ size\ of\ the\ pups\ array\r\n
+comment1.params=spot\ age\ name
+comment1.target=void\ add(int,\ int,\ java.lang.String)
+comment1.text=\r\n\ Method\ add\r\n\r\n\ @param\ spot\ sets\ where\ the\ dog\ to\ be\ added\ will\ be\ in\ the\ array\r\n\ @param\ age\ is\ the\ age\ of\ the\ new\ dog\r\n\ @param\ name\ is\ the\ name\ of\ the\ new\ dog\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getNameOfOldest()
+comment2.text=\r\n\ Method\ getNameOfOldest\r\n\r\n\ @return\ the\ name\ of\ the\ oldest\ dog\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNameOfYoungest()
+comment3.text=\r\n\ Method\ getNameOfYoungest\r\n\r\n\ @return\ the\ name\ of\ the\ youngest\ dog\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\r\n\r\n\ @return\ the\ pups\ array\r\n
+numComments=5

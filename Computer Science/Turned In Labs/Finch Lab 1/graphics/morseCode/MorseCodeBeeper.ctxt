@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MorseCodeBeeper()
+comment1.params=in\ finch
+comment1.target=double[]\ MCB_setAccelerometer(java.io.BufferedReader,\ edu.cmu.ri.createlab.terk.robot.finch.Finch)
+comment1.text=This\ function\ is\ designed\ to\ take\ in\ a\ max\ and\ min\ input\ for\ the\ accelerometers\r\n\ on\ the\ Finch.\ This\ way\ the\ user\ can\ position\ it\ where\ they\ want\ and\ calibrate\ for\r\n\ however\ they\ found\ to\ balance\ the\ finch.\r\n
+comment2.params=in
+comment2.target=java.lang.String\ MCB_GetMessage(java.io.BufferedReader)
+comment2.text=This\ function\ reads\ in\ a\ string\ from\ standard\ in\ and\ translates\ it\ into\ morse.\ The\r\n\ result\ is\ a\ string\ of\ dots\ '.'\ and\ dashes\ '-'\ with\ single\ spaces\ between\ characters\r\n\ and\ triple\ spaces\ between\ words\ for\ easy\ readability.\ Currently,\ only\ letters\ and\r\n\ the\ numbers\ 0-9\ are\ accepted\ as\ inputs.\r\n
+comment3.params=in
+comment3.target=java.lang.String\ MCB_Decrypt(java.io.BufferedReader)
+comment3.text=Reads\ in\ a\ string\ from\ standard\ in\ and\ translates\ it\ from\ .s\ and\ -s\ to\ text.\r\n\ Returns\ the\ translated\ string.\r\n
+comment4.params=Morse\ finch
+comment4.target=void\ MCB_PlayMorse(java.lang.String,\ edu.cmu.ri.createlab.terk.robot.finch.Finch)
+comment4.text=This\ function\ will\ read\ a\ string\ of\ .'s,\ -'s\ and\ spaces\ and\ play\ it\ as\ morse\r\n\ code\ on\ the\ Finch's\ onboard\ buzzer.\ Two\ or\ more\ spaces\ will\ play\ as\ a\ space\r\n\ between\ words,\ while\ single\ spaces\ will\ play\ as\ a\ space\ between\ characters.\r\n\ Future\ versions\ should\ make\ the\ length\ of\ oneTick\ selectable.\r\n
+comment5.params=ticks
+comment5.target=void\ MCB_DelayTicks(int)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

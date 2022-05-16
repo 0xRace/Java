@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GestureProgram()
+comment1.params=command
+comment1.target=void\ appendCommand(GestureCommand)
+comment2.params=
+comment2.target=void\ resetProgram()
+comment3.params=
+comment3.target=GestureCommand\ getNextCommand()
+comment4.params=
+comment4.target=boolean\ hasCommands()
+numComments=5

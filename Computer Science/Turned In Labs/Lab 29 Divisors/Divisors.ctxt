@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Divisors()
+comment0.text=\r\n\ Divisors\ Constructor\ creates\ a\ new\ instance\ of\ Divisors\ and\ sets\ int\ number\ to\ 0\r\n\r\n
+comment1.params=num
+comment1.target=Divisors(int)
+comment1.text=\r\n\ Divisors\ Constructor\ creates\ a\ new\ instance\ of\ Divisors\ and\ sets\ number\r\n\r\n\ @param\ num\ is\ an\ integer\ which\ sets\ number\r\n
+comment2.params=num
+comment2.target=void\ setNum(int)
+comment2.text=\r\n\ Method\ setNum\ sets\ integer\ number\ to\ a\ given\ number\r\n\r\n\ @param\ num\ is\ an\ integer\ which\ sets\ number\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDivisors()
+comment3.text=\r\n\ Method\ getDivisors\ finds\ and\ returns\ the\ divisors\ of\ a\ number\r\n\ \r\n\ @returns\ a\ string\ containing\ a\ the\ divisors\ for\ a\ given\ number\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\ returns\ a\ string\ stating\ a\ given\ number\ and\ its\ divisors\r\n\r\n\ @return\ a\ string\ stating\ the\ number\ and\ its\ divisors\r\n
+numComments=5

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StringRipper()
+comment0.text=\r\n\ StringRipper\ Constructor\r\n\ creates\ new\ instance\ of\ string\ ripper\r\n
+comment1.params=s
+comment1.target=StringRipper(java.lang.String)
+comment1.text=\r\n\ StringRipper\ Constructor\r\n\ creates\ new\ instance\ of\ string\ ripper\ and\ sets\ word\ equal\ to\ a\ given\ string\ s\r\n\ @param\ s\ A\ string\r\n
+comment2.params=s
+comment2.target=void\ setString(java.lang.String)
+comment2.text=\r\n\ Method\ setString\r\n\ sets\ word\ equal\ to\ a\ given\ string\ s\r\n\ @param\ s\ A\ string\r\n
+comment3.params=x\ y
+comment3.target=java.lang.String\ ripString(int,\ int)
+comment3.text=\r\n\ Method\ ripString\r\n\r\n\ @param\ x\ A\ integer\r\n\ @param\ y\ A\ integer\r\n\ @return\ the\ substring\ from\ x\ to\ y\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ toString\r\n\r\n\ @return\ The\ value\ of\ word\r\n
+numComments=5

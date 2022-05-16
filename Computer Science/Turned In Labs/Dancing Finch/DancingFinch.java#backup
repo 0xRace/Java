@@ -1,0 +1,123 @@
+import edu.cmu.ri.createlab.terk.robot.finch.Finch;
+ 
+public class DancingFinch   
+{
+	private static Finch DancingFinch;
+	
+	public static void main(String args[])  
+	{
+		DancingFinch = new Finch();
+		
+		//MUST use program "decomposition" into private static methods in main
+		//OR create a class file.
+		//Random colors rapidly changing
+		//play rave beat constantly (avoid extreme overlap)
+		//Random comment selected from 4 or more choices
+		//Random dance move selected from 4 or more (time consistent) choices
+		//Each dance move must have its own method
+		//make 10 "time steps" through the dance
+
+		for(int rave = 1; rave <= 10; rave++)
+		{
+			raveBeat();
+			randomLED();
+			randomLED();
+			randomComment();
+			randomDance();
+			randomLED();
+			randomLED();
+			
+			//let beat catch up before starting another beat,
+			//don't overlap your beats!
+			DancingFinch.sleep(500);
+		}
+		
+		System.out.println("DONE:  Rave over, time to head home...");
+		DancingFinch.quit();
+	}
+	
+	//play rave beat
+	private static void raveBeat()
+	{
+		DancingFinch.playClip("rave_beat.wav");
+	}
+
+	//randomly set an LED color
+	private static void randomLED()
+	{
+		int red, green, blue;
+		
+		red = (int) (Math.random() * 256);
+		green = (int) (Math.random() * 256);
+		blue = (int) (Math.random() * 256);
+		
+		DancingFinch.setLED(red, green, blue, 500);
+	}
+	
+	//randomly select a comment
+	private static void randomComment()
+	{
+		int comment = (int) (Math.random() * 4 + 1);
+		
+		if (comment == 1)
+		{
+			DancingFinch.saySomething("Do you have any extra light sticks?");
+		}
+		else if (comment == 2)
+		{
+			DancingFinch.saySomething("No thanks, I'm Straight Edge.");
+		}
+		else if (comment == 3)
+		{
+			DancingFinch.saySomething("Deadmau5 is my favorite...");
+		}
+		else
+		{
+			DancingFinch.saySomething("The bathroom is over there!");
+		}
+	}
+	
+	//randomly select a dance move
+	private static void randomDance()
+	{
+		int move = (int) (Math.random() * 4 + 1);
+		
+		if (move == 1)
+		{
+			move1();
+		}
+		else if (move == 2)
+		{
+			move2();
+		}
+		else if (move == 3)
+		{
+			move3();
+		}
+		else
+		{
+			move4();
+		}
+	}
+	
+	//dance moves should be the same time so they will work randomly
+	private static void move1()
+	{
+		DancingFinch.setWheelVelocities(100, 100, 500);
+	}
+	
+	private static void move2()
+	{
+		DancingFinch.setWheelVelocities(-100, -100, 500);
+	}
+	
+	private static void move3()
+	{
+		DancingFinch.setWheelVelocities(-100, 100, 500);
+	}
+	
+	private static void move4()
+	{
+		DancingFinch.setWheelVelocities(100, -100, 500);
+	}
+}

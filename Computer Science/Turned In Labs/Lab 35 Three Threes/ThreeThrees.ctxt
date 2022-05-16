@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Method\ main\ \r\n\ when\ run\ it\ will\ prting\ all\ numbers\ from\ 1000\ to\ 10000\ that\ contain\ the\ digit\ 3\ three\ times\r\n
+comment1.params=number
+comment1.target=boolean\ hasThreeThrees(java.lang.String)
+comment1.text=\r\n\ Method\ hasThreeThrees\ tests\ if\ a\ given\ number\ contains\ the\ digit\ three\ three\ times\r\n\r\n\ @param\ number\ is\ a\ string\r\n\ @return\ true\ if\ number\ has\ exactly\ three\ "3"\ digits,\ false\ otherwise\r\n
+numComments=2

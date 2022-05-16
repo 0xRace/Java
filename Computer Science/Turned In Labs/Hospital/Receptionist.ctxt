@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=n\ i\ t\ ans
+comment0.target=Receptionist(java.lang.String,\ int,\ java.lang.String,\ boolean)
+comment1.params=
+comment1.target=boolean\ getAnsweringPhone()
+comment2.params=ans
+comment2.target=void\ setAnsweringPhone(boolean)
+comment3.params=
+comment3.target=java.lang.String\ work()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
